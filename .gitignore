@@ -1,0 +1,29 @@
+# 忽略编译生成的对象文件
+*.o
+*.obj
+# 忽略动态库和静态库
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+# 忽略Qt Creator生成的用户配置文件
+*.pro.user*
+*.qbs.user*
+*.qmlproject.user*
+# 忽略Qt Creator生成的临时文件
+*.autosave
+# 忽略构建目录
+build*/
+# 忽略Qt生成的其他文件
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+# 忽略Makefile和CMake生成的文件
+Makefile*
+CMakeLists.txt.user*
+# 忽略QML缓存文件
+*_qmlcache.qrc
+# 忽略用户配置和临时文件
+*.user.*

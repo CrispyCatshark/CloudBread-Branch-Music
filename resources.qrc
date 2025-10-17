@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/cloudbread">
+        <file>src/default_user_avatar.png</file>
+        <file>src/favicon_round.ico</file>
+        <file>src/favicon_round.png</file>
+        <file>src/favicon_square.png</file>
+        <file>src/start_background.png</file>
+        <file>src/start_background_extend.png</file>
+        <file>src/echarts.min.js</file>
+        <file>src/loading_1.gif</file>
+        <file>src/start_loading.png</file>
+        <file>src/inlist.png</file>
+        <file>src/played.png</file>
+        <file>src/playing.png</file>
+    </qresource>
+    <qresource prefix="/"/>
+</RCC>
