@@ -1,4 +1,4 @@
-<img src="./src/favicon_round.png" alt="云朵面包" width="20%" align="center" />
+<div align="center"><img src="./src/favicon_round.png" alt="云朵面包" width="20%" align="center" /></div>
 
 <h1 style="font-size:36px;font-weight:700;" align="center">云朵面包 - 音乐家</h1>
 
