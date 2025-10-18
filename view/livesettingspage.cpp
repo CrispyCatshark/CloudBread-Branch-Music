@@ -84,7 +84,7 @@ void liveSettingsPage::initPage()
     m_lyricAddressOpenBtn = new ElaPushButton(this);
     ElaScrollPageArea* lyricArea = new ElaScrollPageArea(this);
     QHBoxLayout* lyricLayout = new QHBoxLayout(lyricArea);
-    ElaText* lyricText = new ElaText("直播间歌词样式配置", this);
+    ElaText* lyricText = new ElaText("直播间歌词", this);
     m_lyricSourceAddress->setText(LyricURL);
     m_lyricSourceAddress->setFixedHeight(35);
     m_lyricAddressCopyBtn->setText("复制到剪切板");
@@ -222,7 +222,7 @@ void liveSettingsPage::initPage()
     m_subtitleTestOpenBtn = new ElaPushButton(this);
     ElaScrollPageArea* SubtitleTestArea = new ElaScrollPageArea(this);
     QHBoxLayout* SubtitleTestLayout = new QHBoxLayout(SubtitleTestArea);
-    ElaText* SubtitleTestText = new ElaText("直播间歌词样式配置", this);
+    ElaText* SubtitleTestText = new ElaText("直播间实时字幕测试", this);
     m_subtitleTestAddress->setText(SubtitleTestURL);
     m_subtitleTestAddress->setFixedHeight(35);
     m_subtitleTestCopyBtn->setText("复制到剪切板");
@@ -255,7 +255,7 @@ void liveSettingsPage::initPage()
     m_subtitleOpenBtn = new ElaPushButton(this);
     ElaScrollPageArea* SubtitleArea = new ElaScrollPageArea(this);
     QHBoxLayout* SubtitleLayout = new QHBoxLayout(SubtitleArea);
-    ElaText* SubtitleText = new ElaText("直播间歌词样式配置", this);
+    ElaText* SubtitleText = new ElaText("直播间实时字幕", this);
     m_subtitleAddress->setText(SubtitleURL);
     m_subtitleAddress->setFixedHeight(35);
     m_subtitleAddressCopyBtn->setText("复制到剪切板");
